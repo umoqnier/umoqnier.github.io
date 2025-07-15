@@ -1,19 +1,15 @@
 ---
-title: news 
-template: news_archive 
-nav: false 
-summary: An archive of announcements.
+title: news
+template: news_archive
+nav: false
+summary: An archive of announcements
 
 entries:
-  - date: 2016-01-15 
+  - date: 2025-07-14
     content: |
-      A simple inline announcement with emoji! ✨😄
+      [My first entry blog]({filename}/posts/initial_commit.md)
 
-  - date: 2015-11-07 
+  - date: 2025-06-28
     content: |
-      [A long announcement with details]({filename}/posts/announcement.md)
-
-  - date: 2015-10-22 
-    content: |
-      Another inline announcement. You can even use **Markdown** in your announcements! Here is a [link](#PhysRev.47.777) to a paper on the same page.
+      I just recieve my acceptation letter from Master's program at IIMAS, UNAM ✨😄
 ---

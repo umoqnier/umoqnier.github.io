@@ -10,7 +10,7 @@ profile:
   image: images/prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>LIDSoL, FI, UNAM</p>
+    🗺️ CDMX, México
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
@@ -18,16 +18,18 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 talks: true # includes latest talks
 ---
 
-I'm a Computer Engineer from [National Autonomous University of
-Mexico](https://en.wikipedia.org/wiki/National_Autonomous_University_of_Mexico)
-with focus on *Natural Language Processing* applied to indigenous languages.
+I'm a Computer Engineer graduated at [National Autonomous University of
+Mexico](https://en.wikipedia.org/wiki/National_Autonomous_University_of_Mexico),
+adviced by two outstanding computational liguistics [Victor
+Mijangos](https://sites.google.com/site/victormijangoscruz/) and [Ximena
+Guitierrez](https://sites.google.com/site/xgutierrezv/). I'm associated with
+[LIDSoL](https://lidsol.unam.mx/) and [Elotl Community](elotl.mx/) as free
+software developer and I have experience at industry as a *Machine
+Learning Operations (MLOps)* engineer monitoring models for fraud prevention at large scale.
 
-I have experience at industrie as a *Machine Learning Operations (MLOps)* engineer
-monitoring models for fraud prevention at large scale.
+**Email:** `dbarriga [at] ciencias.unam.mx`
 
-Recently I was accepted to PCIC Master program at IIMAS.
-
-### Hobbies 🌱
+#### Hobbies 🌱
 
 - Cycling (fixed gear)
 - Playing music

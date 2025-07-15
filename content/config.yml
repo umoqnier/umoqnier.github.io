@@ -9,14 +9,14 @@ last_name: Barriga Martínez
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: Design based on al-folio adapted for Pelican. 
-keywords: physics, mathematics 
+keywords: nlp, low resource, indigenous languages
 
 lang: es # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🌽 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 # For both fields below, do not include leading / trailing slashes. 
-url: https://vbharadwaj-bk.github.io # the base hostname & protocol for your site
-baseurl: test  
+url: https://umoqnier.github.io # the base hostname & protocol for your site
+baseurl: test
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
@@ -62,13 +62,13 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
-email: dbarriga@ciencias.unam.mx
+email:
 github_username: umoqnier
 gitlab_username:
-twitter_username: 
+twitter_username:
 mastodon_username: mstdn.mx/@umoqnier
 linkedin_username: dbarrigam
-telegram_username: 
+telegram_username:
 scholar_userid: # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
