@@ -6,7 +6,7 @@ save_as: index.html
 subtitle: <i>Siempre empujar las fronteras del conocimiento</i>
 
 profile: 
-  align: right
+  align: center
   image: images/prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
@@ -18,9 +18,19 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 talks: true # includes latest talks
 ---
 
-Hola
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm a Computer Engineer from [National Autonomous University of
+Mexico](https://en.wikipedia.org/wiki/National_Autonomous_University_of_Mexico)
+with focus on *Natural Language Processing* applied to indigenous languages.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I have experience at industrie as a *Machine Learning Operations (MLOps)* engineer
+monitoring models for fraud prevention at large scale.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Recently I was accepted to PCIC Master program at IIMAS.
+
+### Hobbies 🌱
+
+- Cycling (fixed gear)
+- Playing music
+- Sci-fi books
+- Board games
+- Indie video games
