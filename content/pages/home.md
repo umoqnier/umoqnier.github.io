@@ -29,10 +29,16 @@ Learning Operations (MLOps)* engineer monitoring models for fraud prevention at 
 
 **Email:** `dbarriga [at] ciencias.unam.mx`
 
+#### Interests 📚
+
+- NLP for low resources
+- Local first LLMs
+- MLOps
+- Free Software tech for Indigenous Languages
+
 #### Hobbies 🌱
 
-- Cycling (fixed gear)
-- Playing music
-- Sci-fi books
-- Board games
-- Indie video games
+- Cycling 🚲
+- Playing music 🎸
+- Sci-fi books 🌌
+- Board/Indie Video games 👾

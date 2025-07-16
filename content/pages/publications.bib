@@ -1,86 +1,84 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={images/publication_preview/brownian-motion.gif}
+@inproceedings{gutierrez-vasques-etal-2025-py,
+    abbr={AmericasNLP},
+    title = "Py-Elotl: A Python NLP package for the languages of Mexico",
+    author = "Gutierrez-Vasques, Ximena  and
+      Pugh, Robert  and
+      Mijangos, Victor  and
+      Barriga Martínez, Diego  and
+      Aguilar, Paul  and
+      Segura, Mikel  and
+      Innes, Paola  and
+      Santillan, Javier  and
+      Montaño, Cynthia  and
+      Tyers, Francis",
+    editor = "Mager, Manuel  and
+      Ebrahimi, Abteen  and
+      Pugh, Robert  and
+      Rijhwani, Shruti  and
+      Von Der Wense, Katharina  and
+      Chiruzzo, Luis  and
+      Coto-Solano, Rolando  and
+      Oncevay, Arturo",
+    booktitle = "Proceedings of the Fifth Workshop on NLP for Indigenous Languages of the Americas (AmericasNLP)",
+    month = may,
+    year = "2025",
+    address = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.americasnlp-1.5/",
+    code={https://github.com/ElotlMX/py-elotl},
+    html={https://aclanthology.org/2025.americasnlp-1.5/},
+    pdf={https://aclanthology.org/2025.americasnlp-1.5.pdf},
+    doi = "10.18653/v1/2025.americasnlp-1.5",
+    pages = "38--47",
+    ISBN = "979-8-89176-236-7",
+    abstract = "This work presents Py-elotl, a suite of tools and resources in Python for processing text in several indigenous languages spoken in Mexico. These resources include parallel corpora, linguistic taggers/analyzers, and orthographic normalization tools. This work aims to develop essential resources to support language pre-processing and linguistic research, and the future creation of more complete downstream applications that could be useful for the speakers and enhance the visibility of these languages. The current version supports language groups such as Nahuatl, Otomi, Mixtec, and Huave. This project is open-source and freely available for use and collaboration",
+    bibtex_show={true}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers},
-  selected={true}
+@inproceedings{barriga-martinez-etal-2021-automatic,
+    abbr={NAACL},
+    title = "Automatic Interlinear Glossing for Otomí language",
+    author = "Barriga Martínez, Diego  and
+      Mijangos*, Victor  and
+      Gutierrez-Vasques*, Ximena",
+    editor = "Mager, Manuel  and
+      Oncevay, Arturo  and
+      Rios, Annette  and
+      Ruiz, Ivan Vladimir Meza  and
+      Palmer, Alexis  and
+      Neubig, Graham  and
+      Kann, Katharina",
+    booktitle = "Proceedings of the First Workshop on Natural Language Processing for Indigenous Languages of the Americas",
+    month = jun,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = {https://aclanthology.org/2021.americasnlp-1.5/},
+    html = {https://aclanthology.org/2021.americasnlp-1.5/},
+    pdf = {https://aclanthology.org/2021.americasnlp-1.5.pdf},
+    code={https://github.com/umoqnier/otomi-morph-segmenter},
+    doi = "10.18653/v1/2021.americasnlp-1.5",
+    pages = "34--43",
+    abstract = "In linguistics, interlinear glossing is an essential procedure for analyzing the morphology of languages. This type of annotation is useful for language documentation, and it can also provide valuable data for NLP applications. We perform automatic glossing for Otomi, an under-resourced language. Our work also comprises the pre-processing and annotation of the corpus. We implement different sequential labelers. CRF models represented an efficient and good solution for our task. Two main observations emerged from our work: 1) models with a higher number of parameters (RNNs) performed worse in our low-resource scenario; and 2) the information encoded in the CRF feature function plays an important role in the prediction of labels; however, even in cases where POS tags are not available it is still possible to achieve competitive results.",
+    preview={images/publication_preview/gloss.png},
+    bibtex_show={true}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, Albert and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true},
+
+@article{barriga2019privacidad,
+  title={Privacidad y anonimato para un manejo seguro de mi información en redes},
+  author={Barriga Martínez, Diego Alberto and Ruano Muñoz, Marco Antonio and Cabrera López, Oscar Emilio and Reséndiz Martínez, Ma and Wolf, Gunnar and others},
+  month={June},
+  year={2019},
+  url={https://www.priv-anon.unam.mx/},
+  publisher = "Instituto de Investigaciones Económicas",
+  html={https://www.priv-anon.unam.mx/},
+  pdf={https://ru.iiec.unam.mx/4911/1/material_curso.pdf},
+  abstract = "Material tutorial y de apoyo para el curso homónimo, impartido en junio de 2019 en la Facultad de Ciencias Políticas y Sociales de la UNAM. El desarrollo temático es: 1. Introducción al curso. a. Buenas prácticas en el uso de recursos digitales para la investigación científica. b. Demostración: ¿Qué información nuestra podemos encontrar en línea? c. Casos de uso para profesionales de las ciencias políticas y sociales. 2. Descubriendo errores, malas prácticas y situación en México a. Privacidad y Anonimato b. ¿Qué es internet? c. Internet en México d. Vigilancia y censura. 3. Corrigiendo los errores y buenas prácticas a. Buenas prácticas. b. Herramientas y utilidades. 4. The Onion Router a. ¿Qué es Tor? b. Instalación c. Configuración d. Demostración 5. Conclusión. a. Desarrollo tecnológico de Tor. b. Involúcrate. c. Presentación de material multimedia “Internet, la vida privada y otras historias de paquetes”",
+  preview={images/publication_preview/privacy.png},
   bibtex_show={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={Über die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, Albert},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={On the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, Albert},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={images/publication_preview/wave-mechanics.gif}
-}
