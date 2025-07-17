@@ -8,4 +8,4 @@ cv_pdf:
 summary: My peer-reviewed  work.
 ---
 
-This is a list of publications. 
+This is a list of publications.

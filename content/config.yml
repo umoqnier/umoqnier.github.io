@@ -8,7 +8,7 @@ middle_name: A.
 last_name: Barriga Martínez
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-footer_text: Design based on al-folio adapted for Pelican. 
+footer_text: Made with <3. Design based on al-folio adapted for Pelican. 
 keywords: nlp, low resource, indigenous languages
 
 lang: es # the language of your site (for example: en, fr, cn, ru, etc.)
@@ -105,7 +105,7 @@ contact_note: >
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
-google_analytics:  # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+google_analytis:  # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 cronitor_analytics:  # cronitor RUM analytics site ID (format: XXXXXXXXX)
 
 google_site_verification:  # your google-site-verification ID (Google Search Console)
@@ -115,10 +115,15 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_enabled: true 
-blog_name: al-folio # blog_name will be displayed in your blog page
+blog_enabled: true
+blog_name: blog posts # blog_name will be displayed in your blog page
 blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_description: inter omnia omnis imus
+blog_splash: "images/popo.JPG"
+
+display_tags: [] # these tags will be displayed on the front page of your blog
+display_categories: [] # these categories will be displayed on the front page of your blog
+
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -139,8 +144,8 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  enabled: false
+  scrollable: false # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 
 # -----------------------------------------------------------------------------
@@ -154,8 +159,6 @@ defaults:
     values:
       sitemap: false
 
-display_tags: ['formatting', 'announcements', 'toc', 'math', 'blockquotes'] # these tags will be displayed on the front page of your blog
-display_categories: ['sample-posts'] # these categories will be displayed on the front page of your blog
 
 publications:
 

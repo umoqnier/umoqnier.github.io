@@ -98,7 +98,7 @@
           {%- endif %}
 
           <!-- Latest posts -->
-          {% if page.latest_posts and SITE.blog_enabled -%}
+          {% if page.latest_posts.enabled and SITE.blog_enabled -%}
             <hr>
             <h2><a href="{{ 'posts/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
             {%- include '_includes/latest_posts.html' %}

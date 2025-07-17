@@ -1,14 +1,27 @@
-- venue: Institute for Advanced Study (IAS) Seminar 
-  title: Musings on General Relativity 
-  date: 2023-02-01
+- venue: FLISoL, School of Engineering, UNAM
+  title: Pyelotl una biblioteca de NLP para lenguas indígenas mexicanas
+  date: 2024-11-15
   buttons:
-    slides: slides_link
-    video: video_link
+    code: https://codeberg.org/umoqnier/pumasol-2024
+    slides: https://codeberg.org/umoqnier/pumasol-2024/raw/branch/main/presentation.pdfs
 
-- venue: Caltech Job Talk 
-  title: Brownian Motion 
-  date: 2021-02-01
+- venue: PyLatam, Mazatlán, Sinaloa
+  title: Tests efectivos con <code>pytest</code>, o cómo escribir código dificil de fallar
+  date: 2024-09-22
   buttons:
-    slides: slides_link
-    video: video_link
+    code: https://codeberg.org/umoqnier/pycon-latam-2024
+    slides: https://codeberg.org/umoqnier/pycon-latam-2024/raw/branch/main/presentation.pdfs
 
+- venue: Python CDMX, Wizeline
+  title: Chit Chat, representaciones fonéticas con <code>python</code>
+  date: 2024-09-10
+  buttons:
+    code: https://codeberg.org/umoqnier/representaciones-foneticas-python-cdmx-2024
+
+- venue: CCOSS, Guadalajara
+  title: Sobre el desarrollo de tecnologías libres para lenguas mexicana. Caso Esquite
+  date: 2020-10-21
+  buttons:
+    code: https://github.com/ElotlMX/ccoss-2020-esquite
+    slides: https://github.com/ElotlMX/ccoss-2020-esquite/blob/master/esquite.pdf
+    video: https://youtu.be/ZW6lZU9wF7o?feature=shared
