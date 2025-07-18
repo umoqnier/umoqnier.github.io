@@ -12,6 +12,9 @@
   <div class="header-bar">
     <h1>{{ SITE.blog_name }}</h1>
     <h2>{{ SITE.blog_description }}</h2>
+    {% if SITE.blog_splash %}
+      <img class="card-img" src="{{SITE.blog_splash | relative_url}}" style="object-fit: scale" alt="image">
+    {% endif %}
   </div>
   {% endif %}
 

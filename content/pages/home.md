@@ -27,18 +27,18 @@ Guitierrez](https://sites.google.com/site/xgutierrezv/). I'm associated with
 software developer and I have experience at industry as a *Machine
 Learning Operations (MLOps)* engineer monitoring models for fraud prevention at large scale.
 
-**Email:** `dbarriga [at] ciencias.unam.mx`
-
 #### Interests 📚
 
 - NLP for low resources
-- Local first LLMs
+- Local-first LLMs
 - MLOps
 - Free Software tech for Indigenous Languages
 
 #### Hobbies 🌱
 
 - Cycling 🚲
-- Playing music 🎸
+- Play music 🎸
 - Sci-fi books 🌌
 - Board/Indie Video games 👾
+
+**Email:** `dbarriga [at] ciencias.unam.mx`

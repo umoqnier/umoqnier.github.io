@@ -69,7 +69,7 @@ twitter_username:
 mastodon_username: mstdn.mx/@umoqnier
 linkedin_username: dbarrigam
 telegram_username:
-scholar_userid: # your Google Scholar ID
+scholar_userid: GIbp8bgAAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: # your ORCID ID
@@ -118,8 +118,8 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 blog_enabled: true
 blog_name: blog posts # blog_name will be displayed in your blog page
 blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: inter omnia omnis imus
-blog_splash: "images/popo.JPG"
+blog_description: inter omnes omnia scimus
+blog_splash: "images/popo_2.jpg"
 
 display_tags: [] # these tags will be displayed on the front page of your blog
 display_categories: [] # these categories will be displayed on the front page of your blog

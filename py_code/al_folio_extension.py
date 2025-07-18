@@ -8,36 +8,41 @@ from operator import itemgetter
 
 log = logging.getLogger(__name__)
 
+
 class ListItem(Content):
-    mandatory_properties = None 
-    allowed_statuses = ('published', 'hidden', 'draft')
-    default_status = 'published'
-    default_template = None 
+    mandatory_properties = None
+    allowed_statuses = ("published", "hidden", "draft")
+    default_status = "published"
+    default_template = None
 
     def _expand_settings(self, key):
-        klass = 'draft_news' if self.status == 'draft' else None
+        klass = "draft_news" if self.status == "draft" else None
         return super()._expand_settings(key, klass)
+
 
 def content_pass(gen, md, input, strip_p_tags=False):
     md_data = md.reset().convert(input)
-    converted_content = ListItem(content=md_data,
-                        metadata=None, 
-                        settings=gen.settings,
-                        source_path=None, 
-                        context=gen.context)
+    converted_content = ListItem(
+        content=md_data,
+        metadata=None,
+        settings=gen.settings,
+        source_path=None,
+        context=gen.context,
+    )
 
-    result = converted_content.content 
+    result = converted_content.content
     if strip_p_tags:
-        result = result.replace("<p>", "").replace("</p>", "") 
+        result = result.replace("<p>", "").replace("</p>", "")
 
-    return result 
+    return result
+
 
 class ALFolioGenerator(Generator):
-    '''
+    """
     Custom generator for data needed by the al-folio theme.
     Reads YAML files, runs URL replacement / Markdown for
     specified dictionary members.
-    '''
+    """
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
@@ -55,41 +60,46 @@ def process_content_fields(page_generator):
     key = "pages/teaching.md"
     if key in gen.context["generated_content"]:
         article = gen.context["generated_content"][key]
-        fields_to_process = [('title', True), ('content', False)]
+        fields_to_process = [("title", True), ("content", False)]
 
         if "courses" in article.metadata:
             try:
                 for element in article.metadata["courses"]:
                     for field, strip_p_tags in fields_to_process:
-                        element[field] = content_pass(gen, md, element[field], strip_p_tags=strip_p_tags)
+                        element[field] = content_pass(
+                            gen, md, element[field], strip_p_tags=strip_p_tags
+                        )
                 gen.context["teaching"] = article.metadata["courses"]
             except Exception as e:
-                log.error(f"Error loading teaching! {e}") 
+                log.error(f"Error loading teaching! {e}")
 
     # Load news
     key = "pages/news.md"
     if key in gen.context["generated_content"]:
         article = gen.context["generated_content"][key]
-        fields_to_process = [('content', False)]
+        fields_to_process = [("content", False)]
 
         if "entries" in article.metadata:
             try:
                 for element in article.metadata["entries"]:
                     for field, strip_p_tags in fields_to_process:
-                        element[field] = content_pass(gen, md, element[field], strip_p_tags=strip_p_tags)
+                        element[field] = content_pass(
+                            gen, md, element[field], strip_p_tags=strip_p_tags
+                        )
                 gen.context["news"] = article.metadata["entries"]
             except Exception as e:
                 log.error(f"Error loading news! {e}")
 
-    dropdowns = [] 
-    if "dropdowns" in gen.context["SITE"]: 
+    dropdowns = []
+    if "dropdowns" in gen.context["SITE"]:
         dropdowns = gen.context["SITE"]["dropdowns"]
         for el in dropdowns:
             for i, child in enumerate(el["children"]):
                 if child != "divider":
                     str_to_process = child + '{: class="dropdown-item" }'
-                    el["children"][i] = content_pass(gen, md, str_to_process, strip_p_tags=True)
-
+                    el["children"][i] = content_pass(
+                        gen, md, str_to_process, strip_p_tags=True
+                    )
 
     # Sort pages for the navigation bar
     pages = gen.context["pages"]
@@ -113,6 +123,7 @@ def process_content_fields(page_generator):
 
 def get_generators(pelican_object):
     return ALFolioGenerator
+
 
 def register():
     signals.get_generators.connect(get_generators)
