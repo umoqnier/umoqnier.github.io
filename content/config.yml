@@ -7,7 +7,7 @@ first_name: Diego
 middle_name: A.
 last_name: Barriga Martínez
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+    Personal page of Diego Alberto Barriga Martínez a handsome persecutor of his master's degree
 footer_text: Made with <3. Design based on al-folio adapted for Pelican. 
 keywords: nlp, low resource, indigenous languages
 
@@ -26,7 +26,7 @@ impressum_path:  # set to path to include impressum link in the footer, use the 
 
 # code highlighter theme
 highlight_theme_light: github   # https://github.com/jwarby/jekyll-pygments-themes
-highlight_theme_dark: native    # https://github.com/jwarby/jekyll-pygments-themes
+highlight_theme_dark: monokai    # https://github.com/jwarby/jekyll-pygments-themes
 
 # -----------------------------------------------------------------------------
 # Layout and navigation
@@ -38,13 +38,13 @@ footer_fixed: true
 # Each dropdown must have a title, nav_order, and children that
 # are each a link (you can use markdown and Pelican attach / filename)
 # syntax) or the string "divider".
-dropdowns:
-  - title: submenus
-    nav_order: 7
-    children:
-      - "[talks]({filename}/pages/talks.md)"
-      - "divider"
-      - "[teaching]({filename}/pages/teaching.md)"
+#dropdowns:
+#  - title: submenus
+#    nav_order: 7
+#    children:
+#      - "[talks]({filename}/pages/talks.md)"
+#      - "divider"
+#      - "[teaching]({filename}/pages/teaching.md)"
 
 # Dimensions
 max_width: 850px

@@ -5,8 +5,16 @@
       value: Diego Alberto Barriga Martínez
     - name: Date of Birth
       value: 22th April 1995
+    - name: Professional Skills
+      value: Compromise, Teaching, Team Management, Empathy, Team work
+    - name: Programming Languages
+      value: python, c, java, javascript, LISP (scheme)
+    - name: Tools
+      value: Jupyter, Pytorch, Spacy, NLTK, HF 🤗, Prompt Engineering
+    - name: Databases
+      value: PostgreSQL, MySQL, Elasticsearch
     - name: Languages
-      value: Spanish (Native), English (C1)
+      value: Spanish (Native), English 
 
 - title: Education
   type: time_table
@@ -41,6 +49,8 @@
       institution: School of Science, UNAM
       year: 2021-2025
       description:
+          - Compilers
+          - Computer Linguistics (2025-1)
           - <a href="https://github.com/umoqnier/cl-2024-2-lab">Computer Linguistics (2024-2)</a>
           - <a href="https://github.com/umoqnier/cl-2024-1-lab">Computer Linguistics (2024-1)</a>
           - Operating Systems
@@ -67,30 +77,28 @@
     - title: <a href="">Py-elotl</a>
       maindescription: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      elements: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      elements: 
-        - Max Planck Medal
-
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
-      elements: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+    - title: Low Resource Languages
       elements:
-        - Description 1.
-        - Description 2.
+        - Low computation NLP models
+        - NLP techniques applied to indigenous languages of Mexico
+    - title: Local-first LLMs
+      elements:
+        - Local exploitation of models with <code>ollama</code>
+        - RAG development with <code>langchain</code>
+        - CPU friendly models
 
-- title: Other Interests
-  type: list
+- title: Voluntering
+  type: time_table
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Member
+      institution: Python CDMX
+      year: 2024-now
+    - title: Free Sofware Dev
+      institution: Elotl Community
+      year: 2019-now
+    - title: Board Member
+      institution: Laboratory of Development and Research of Free Software, School of Engineering, UNAM
+      year: 2018-now

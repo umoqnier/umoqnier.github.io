@@ -1,6 +1,6 @@
 ---
 title: talks 
 template: talks 
-nav: false 
+nav: true
 summary: A list of all your talks.
 ---
