@@ -8,7 +8,7 @@ middle_name: A.
 last_name: Barriga Martínez
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
     Personal page of Diego Alberto Barriga Martínez a handsome persecutor of his master's degree
-footer_text: Made with <3. Design based on al-folio adapted for Pelican.
+footer_text: and made with ❤️. Design based on <a href="https://github.com/vbharadwaj-bk/al-folio-python">al-folio</a> adapted for <a href="https://docs.getpelican.com">pelican</a> by <a href="https://github.com/vbharadwaj-bk">vbharadwaj-bk</a>.
 keywords: nlp, low resource, indigenous languages
 
 lang: es # the language of your site (for example: en, fr, cn, ru, etc.)
@@ -119,7 +119,7 @@ blog_enabled: true
 blog_name: blog posts # blog_name will be displayed in your blog page
 blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
 blog_description: inter omnes omnia scimus
-blog_splash: "images/popo_2.jpg"
+blog_splash: "images/popo.jpg"
 
 display_tags: [] # these tags will be displayed on the front page of your blog
 display_categories: [] # these categories will be displayed on the front page of your blog
