@@ -29,7 +29,7 @@ Learning Operations (MLOps)* engineer monitoring models for fraud prevention at 
 
 #### Interests 📚
 
-- NLP for low resources
+- NLP for Low-resource languages
 - Local-first LLMs
 - MLOps
 - Free Software tech for Indigenous Languages
