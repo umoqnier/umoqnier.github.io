@@ -33,7 +33,7 @@ highlight_theme_dark: monokai    # https://github.com/jwarby/jekyll-pygments-the
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 
 # Each dropdown must have a title, nav_order, and children that
 # are each a link (you can use markdown and Pelican attach / filename)
