@@ -1,3 +1,10 @@
+- venue: XVIII National Congress of Linguistics, Guanajuato University 
+  title: "Pyelotl: Una paquetería de Python para procesar texto de lenguas habladas en México"
+  date: 2025-09-17
+  buttons:
+    code: https://colab.research.google.com/drive/1tnNP6glCGtnv6Yo5mR-C-qGxeoXrkHB8?usp=sharing
+    slides: https://docs.google.com/presentation/d/1cUWBQz_by0i_Qcscknw-fxa8oe-XQUOK3fvFy9NQSXI/edit?usp=sharing
+
 - venue: FLISoL, School of Engineering, UNAM
   title: Pyelotl una biblioteca de NLP para lenguas indígenas mexicanas
   date: 2024-11-15

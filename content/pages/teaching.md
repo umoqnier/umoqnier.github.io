@@ -6,6 +6,11 @@ nav_order: 5
 summary: Courses I've taught.
 
 courses:
+  - title: "[Neural Networks](https://github.com/umoqnier/Redes-Neuronales/tree/feature/update-practices/2026-1_notebooks)"
+    subtitle: Spring 2025
+    badge: School of Science, UNAM
+    content: |
+
   - title: "[Selected Themes of NLP](https://github.com/umoqnier/st-cl-2025-2-lab)"
     subtitle: Spring 2025
     badge: IIMAS, UNAM

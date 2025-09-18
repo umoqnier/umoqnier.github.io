@@ -35,6 +35,11 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Data Quality Engineer
+      institution: Mozilla Data Collective
+      year: 2025
+      description:
+        - Automate datasheets information about <code>~300</code> ASR datasets
     - title: Teaching Assistant Professor
       institution: Data Science Bachelor, Applied Mathematics and Systems Research Institute, UNAM
       year: 2025
@@ -49,6 +54,7 @@
       institution: School of Science, UNAM
       year: 2021-2025
       description:
+          - Neural Networks
           - Compilers
           - Computer Linguistics (2025-1)
           - <a href="https://github.com/umoqnier/cl-2024-2-lab">Computer Linguistics (2024-2)</a>
@@ -93,12 +99,12 @@
 - title: Voluntering
   type: time_table
   contents:
-    - title: Member
-      institution: Python CDMX
-      year: 2024-now
     - title: Free Sofware Dev
       institution: Elotl Community
       year: 2019-now
     - title: Board Member
       institution: Laboratory of Development and Research of Free Software, School of Engineering, UNAM
       year: 2018-now
+    - title: Member
+      institution: Python CDMX
+      year: 2024-2025
