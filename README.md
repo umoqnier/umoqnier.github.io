@@ -1,4 +1,4 @@
-# al-folio-pelican
+:x
 
 Build an academic website with the stylish look of the popular [al-folio](https://github.com/alshedivat/al-folio) 
 template, but using Python, not Ruby. This is a port of the al-folio template for the Pelican static site generator and the
