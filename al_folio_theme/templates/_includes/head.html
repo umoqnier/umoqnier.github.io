@@ -11,7 +11,18 @@
     <!-- Fonts & Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@{{ SITE.fontawesome.version }}/css/all.min.css" integrity="{{ SITE.fontawesome.integrity }}" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@{{ SITE.academicons.version }}/css/academicons.min.css" integrity="{{ SITE.academicons.integrity }}" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Atkinson+Hyperlegible:300,400,500,700|Atkinson+Hyperlegible+Mono:100,200,300,400,500,600,700,800|Material+Icons">
+
+    <style>
+      :root {
+        --global-font-family: 'Atkinson Hyperlegible', sans-serif;
+        --global-code-font-family: 'Atkinson Hyperlegible Mono', monospace;
+      }
+      body { font-family: var(--global-font-family); }
+      code { font-family: var(--global-code-font-family); }
+    </style>
 
     <!-- Code Syntax Highlighting -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/{{ SITE.highlight_theme_light ~ '.css' }}" media="" id="highlight_theme_light">
