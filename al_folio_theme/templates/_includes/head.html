@@ -13,6 +13,15 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@{{ SITE.academicons.version }}/css/academicons.min.css" integrity="{{ SITE.academicons.integrity }}" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Atkinson+Hyperlegible:300,400,500,700|Atkinson+Hyperlegible+Mono:100,200,300,400,500,600,700,800|Material+Icons">
 
+    <style>
+      :root {
+        --global-font-family: 'Atkinson Hyperlegible', sans-serif;
+        --global-code-font-family: 'Atkinson Hyperlegible Mono', monospace;
+      }
+      body { font-family: var(--global-font-family); }
+      code { font-family: var(--global-code-font-family); }
+    </style>
+
     <!-- Code Syntax Highlighting -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/{{ SITE.highlight_theme_light ~ '.css' }}" media="" id="highlight_theme_light">
 
